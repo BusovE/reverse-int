@@ -6,4 +6,5 @@ module.exports = function reverse (n) {
         newArr.unshift(arr[i]);
     }
     return newArr.join('')
+    // return parseInt(n.toString().split('').reverse().join(''))
 }
